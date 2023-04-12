@@ -1,18 +1,18 @@
 # Introduction to browser events
 
-*An event* is a signal that something has happened. All DOM nodes generate such signals (but events are not limited to DOM).
+*อีเว้นท์ หรือเหตุการณ์* คือสัญญาณที่ระบุว่ามีบางสิ่งเกิดขึ้นแล้ว ทุกๆ โหนดของ DOM จะสร้างสัญญาณหรือเหตุการณ์เช่นนี้ออกมา (แต่เหตุการณ์ไม่ได้จำกัดอยู่เฉพาะที่ DOM เท่านั้น)
 
-Here's a list of the most useful DOM events, just to take a look at:
+ต่อไปนี้เป็นรายการของ DOM อีเวนท์ที่น่าสนใจ:
 
-**Mouse events:**
-- `click` -- when the mouse clicks on an element (touchscreen devices generate it on a tap).
-- `contextmenu` -- when the mouse right-clicks on an element.
-- `mouseover` / `mouseout` -- when the mouse cursor comes over / leaves an element.
-- `mousedown` / `mouseup` -- when the mouse button is pressed / released over an element.
-- `mousemove` -- when the mouse is moved.
+**เหตุการณ์ของเมาส์:**
+- `click` -- เมื่อมีการคลิกเมาส์บนอีลีเมนต์ (ถ้าเป็นจอสัมผัสจะสร้างเหตุการณ์เมื่อมีการแตะ)
+- `contextmenu` -- เมื่อมีการคลิกปุ่มขวาของเมาส์บนอีลีเมนต์
+- `mouseover` / `mouseout` -- เมื่อมีการเลื่อนเคอร์เซอร์ของเมาส์ไปบน / ออกจากตัวอีลีเมนต์
+- `mousedown` / `mouseup` -- เมื่อมีการกดปุ่มเมาส์ / ปล่อยปุ่มเมาส์บนตัวอีลีเมนต์
+- `mousemove` -- เมื่อเมาส์มีการเคลื่อนที่
 
-**Keyboard events:**
-- `keydown` and `keyup` -- when a keyboard key is pressed and released.
+**เหตุการณ์ของคีย์บอร์ด:**
+- `keydown` และ `keyup` -- เมื่อปุ่มบนคีย์บอร์ดถูกกด และปล่อย
 
 **Form element events:**
 - `submit` -- when the visitor submits a `<form>`.
